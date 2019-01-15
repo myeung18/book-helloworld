@@ -4,8 +4,6 @@ import javax.enterprise.context.RequestScoped;
 import javax.ws.rs.Path;
 import java.util.Random;
 
-@RequestScoped
-@Path("/insult")
 public class InsultGenerator {
     public String generateInsult() {
         String words[][] = {{"Artless", "Bawdy", "Beslubbering"}, {"Base-court", "Bat-fowling", "Beef-witted"}, {"Apple-john", "Baggage", "Barnacle"}};
